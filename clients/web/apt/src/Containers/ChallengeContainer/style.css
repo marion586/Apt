@@ -1,0 +1,37 @@
+.act-container {
+    margin-top: 7px;
+}
+
+.card-spacing-top-act {
+    margin-top: 23px;
+}
+
+.card-spacing-top-act-head {
+    margin-top: 8px;
+}
+
+.act-container .act-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.act-container .act-container-header h4 {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-bottom: 0px !important;
+}
+
+.act-container .act-container-header h4 svg {
+    transform: rotate(-45deg);
+}
+
+.act-container-body {
+    width: 100%;
+    margin-top: 22px;
+}
+
+.act-container .act-container-header button {
+    background-color: #ECAE00 !important;
+    border-color: #ECAE00 !important;
+}

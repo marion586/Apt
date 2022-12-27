@@ -1,0 +1,15 @@
+.card-spacing-top {
+    margin-top: 23px;
+}
+
+.card-spacing-top-events {
+    margin-top: 14px;
+}
+
+.list-publication {
+    margin-top: 25px;
+}
+
+.list-publication .publication-content {
+    border: 1px solid #f0f0f0 !important;
+}

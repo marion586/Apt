@@ -1,0 +1,32 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-eslint-rules", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"],
+    "member-access": [true, "no-public"],
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "semicolon": [true, "always"],
+    "no-submodule-imports": false,
+    "curly": [true, "ignore-same-line"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "no-shadowed-variable": false,
+    "no-empty": false,
+    "no-console": false,
+    "no-string-literal": false,
+    "no-unused-expression": false
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**", "src/schema/generated/**"]
+  },
+  "rulesDirectory": []
+}

@@ -1,0 +1,44 @@
+.ant-tooltip-arrow {
+  left: 13px;
+  display: none;
+}
+
+.ant-tooltip-placement-top,
+.ant-tooltip-placement-topLeft,
+.ant-tooltip-placement-topRight {
+  padding-bottom: 0px;
+}
+
+.publication-action-icon-block {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-tooltip-inner {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
+
+.publication-action-total {
+  color: #3644d9;
+  font-weight: bold;
+  font-size: 10px;
+  height: 12px;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+.publication-action-icon-text {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+}
+
+.publication-action-icon-block>div:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}

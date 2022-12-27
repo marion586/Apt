@@ -1,0 +1,7 @@
+.grid-body .ant-carousel {
+    margin-top: 4px !important;
+}
+
+.grid-body .ant-carousel .ant-row {
+    padding: 0px 5px 0px 5px !important;
+}

@@ -1,0 +1,36 @@
+h5.ant-typography {
+  font-size: 12px;
+}
+
+.profil-form-btn-edit {
+  text-align: end;
+}
+
+.profil-form-btn-edit button {
+  width: 93px;
+  height: 23px;
+}
+
+.profil-form-btn-edit,
+.profil-about-form {
+  padding-right: 2%;
+}
+
+.profil-save-btn {
+  margin-top: 3px;
+}
+
+.profil-save-btn button {
+  width: 103px;
+  height: 23px;
+}
+
+.profil-form-btn-edit button, .profil-save-btn button  {
+  font-size: 12px !important;
+  padding: 0;
+}
+
+.profil-about-form .ant-form-item-label > label {
+  margin: 0;
+  font-size: 12px;
+}

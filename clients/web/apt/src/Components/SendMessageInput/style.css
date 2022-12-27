@@ -1,0 +1,60 @@
+.Send-Message-input {
+  background-color: #f6f6f6 !important;
+  border-radius: 5px;
+  height: 42px !important;
+}
+.Send-Message-input input {
+  background: none !important;
+  outline: none;
+}
+.Send-Message-input-icon {
+  color: #989595;
+  margin-left: 11px;
+}
+.Send-Message-input-icon:hover {
+  cursor: pointer;
+}
+
+.emoji-picker-react {
+  position: absolute !important;
+  bottom: 120% !important;
+  right: 0% !important;
+}
+
+.emoji-scroll-wrapper::-webkit-scrollbar {
+  display: none !important;
+}
+
+.emoji-picker-react :nth-child(1) {
+  order: 2;
+  flex-direction: row-reverse;
+}
+
+.emoji-categories .active {
+  border-bottom: 2px solid grey;
+}
+
+.emoji-picker-react .emoji-categories button.icn-food_drink {
+  background-image: url(../../Images/Emoji/food.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-smileys_people {
+  background-image: url(../../Images/Emoji/people.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-travel_places {
+  background-image: url(../../Images/Emoji/travel.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-activities {
+  background-image: url(../../Images/Emoji/activity.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-objects {
+  background-image: url(../../Images/Emoji/object.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-symbols {
+  background-image: url(../../Images/Emoji/symbol.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-flags {
+  background-image: url(../../Images/Emoji/flag.png) !important;
+}
+.emoji-picker-react .emoji-categories button.icn-animals_nature {
+  background-image: url(../../Images/Emoji/animal.png) !important;
+}

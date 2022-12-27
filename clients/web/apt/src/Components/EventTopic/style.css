@@ -1,0 +1,20 @@
+.event-topic-title {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.event-topic-subtitle {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.event-topic-title h4.ant-typography {
+  font-size: 14px;
+  margin: 0;
+  letter-spacing: 0px;
+}
+.event-topic-subtitle h5.ant-typography {
+  font-size: 12px;
+  margin: 0;
+  letter-spacing: 0px;
+}

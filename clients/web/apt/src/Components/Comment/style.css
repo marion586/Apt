@@ -1,0 +1,13 @@
+.comment-merite {
+  margin: 10px 0;
+  margin-bottom: 15px;
+  flex-wrap: nowrap;
+}
+
+.comment-content {
+  margin-left: 38px;
+}
+
+.comment-wrapper {
+  margin-top: 16px;
+}

@@ -1,0 +1,38 @@
+.Message-left-side-section-user {
+  padding: 10px;
+  border-radius: 5px;
+}
+.Message-left-side-section-user-active {
+  background-color: #f9f9f9;
+}
+.Message-left-side-section-user:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.Message-left-side-text {
+  width: calc(100% - 51px);
+  margin: 0px 0px 0px 15px;
+}
+.Message-left-side-user {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.Message-left-side-last-message {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  line-height: 12px;
+  color: #989595;
+  margin: 5px 0px 0px;
+}

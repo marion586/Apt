@@ -1,0 +1,64 @@
+{
+  "login": {
+    "title": "Connection",
+    "label": {
+      "email": "Email adress or username",
+      "password": "Password",
+      "forgot": "Forgot password?"
+    },
+    "button": {
+      "signin": "Sign in",
+      "separator": "or",
+      "signup": "Sign up"
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot password?",
+    "label": {
+      "email": "Please enter your email"
+    },
+    "button": {
+      "back": "Sign in",
+      "resendCode": "Resend code after 30 seconds",
+      "sendCode": "Send code",
+      "dorpDownCode": "Another method?"
+    },
+    "option": {
+      "dorpDownCode": ["Username", "Date of birth", "Email"]
+    }
+  },
+  "signUp": {
+    "title": "Inscription",
+    "label": {
+      "name": "Name",
+      "forname": "Forname",
+      "username": "Username",
+      "gender": "Gender",
+      "email": "Email",
+      "password": "Password",
+      "confPassword": "Confirm your password"
+    },
+    "option": {
+      "gender": ["Female", "Male", "Other"]
+    },
+    "button": {
+      "validateCheckBox": "By clicking Validate, you agree to the site's terms of use.",
+      "validate": "Validate",
+      "signin": "Sign in"
+    }
+  },
+  "navigation": {
+    "searchBar": "Search...",
+    "dopDownMenu": ["Profile", "Setting", "Log out"],
+    "sideButton": ["Top 10", "ACT (challenge)", "Video", "Event", "Additions", "Added", "Community", "Marketplaces"]
+  },
+  "dashboard": {
+    "button": {
+      "changePic": "Change picture"
+    },
+    "label": {
+      "navigation": ["Publication", "Follow", "Memories notebook", "About"],
+      "stat": ["Merits", "Publications", "Followers"]
+    }
+  }
+}

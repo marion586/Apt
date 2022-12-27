@@ -1,0 +1,67 @@
+.post-container {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post-container-header h3 {
+    font-size: 14px !important;
+}
+
+.post-container-header svg {
+    margin-top: 1px !important;
+    margin-right: 4px !important;
+}
+
+.post-container .ant-card-body {
+    padding: 13px 17px 0px 17px;
+}
+
+.post-container-body textarea {
+    width: 100%;
+    height: 110px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: #F9F9F9C7;
+}
+
+.post-container-footer {
+    margin-top: -8px;
+}
+
+.left-post-container-footer-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px !important;
+    cursor: pointer;
+    padding: 2px 0px !important;
+    border-radius: 5px;
+}
+
+.left-post-container-footer-item svg {
+    margin-right: 7px;
+}
+
+.left-post-container-footer-item p {
+    margin-top: 1px !important;
+    margin-bottom: 0px !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.top-2 {
+    margin-top: 2px !important;
+}
+
+.p-right {
+    text-align: right !important;
+}
+
+.right-post-container-footer-item>button {
+    font-size: 10px !important;
+    padding: 2px 10px !important;
+}
+
+.right-post-container-footer-item>button>svg {
+    margin-right: 5px;
+}

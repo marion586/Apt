@@ -1,0 +1,150 @@
+.navigation-container {
+    background: #3644D9;
+    position: fixed;
+    width: 75%;
+    z-index: 999;
+    height: 70px !important;
+    align-items: center !important;
+}
+
+
+/* LEFT */
+
+.navigation-container-left {
+    display: flex !important;
+}
+
+.navigation-container-left img {
+    position: relative;
+    top: -2.5px;
+}
+
+.navigation-container-left-menu {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 2.5px;
+    right: 2px;
+    color: #d7daf7;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.ant-dropdown-menu {
+    padding: 4px 5px 7px 0px !important;
+}
+
+.col-custom {
+    max-width: 7.6% !important;
+}
+
+.col-custom-suite {
+    max-width: 10% !important;
+}
+
+.col-custom-search {
+    max-width: 39.55% !important;
+}
+
+.col-custom-icon {
+    max-width: 13.6% !important;
+}
+
+
+/* CENTER */
+
+.navigation-container-center-search-custom {
+    border: 0px;
+    background: #2D2D2D45;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+
+.navigation-container-center-search-custom input {
+    background: none !important;
+    color: #FFFFFF !important;
+}
+
+.navigation-container-center-search-custom svg {
+    width: 15px;
+    height: 15px
+}
+
+
+/* RIGHT */
+
+.navigation-container-right {
+    width: 100% !important;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 2px;
+}
+
+.navigation-container-right-divider {
+    top: 7px;
+    height: 18.5px !important;
+    border-left: 1px solid #A4ABEE !important;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.navigation-container-right-icon {
+    display: flex;
+}
+
+.navigation-icon-content {
+    position: relative;
+    top: 2.5px;
+    padding: 5px 0px 0px 0px;
+    margin-left: 40px;
+}
+
+.navigation-container-right-profil-user-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation-container-right-profil-user {
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+}
+
+.menu-items-custom>.menu-icon {
+    position: relative;
+    top: 3px;
+    color: #000000;
+}
+
+.menu-items-custom>span {
+    position: relative;
+    left: 1px;
+    bottom: 1px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.drop-item-custom {
+    margin-left: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+/* RIGHT */
+
+.font-24 {
+    font-size: 24px;
+}
+
+.top-2 {
+    position: relative;
+    top: 2px;
+}

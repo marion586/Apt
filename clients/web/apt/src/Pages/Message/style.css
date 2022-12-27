@@ -1,0 +1,5 @@
+.Message-container {
+  height: calc(100vh - 90px) !important;
+  flex-flow: row;
+  padding: 8px;
+}

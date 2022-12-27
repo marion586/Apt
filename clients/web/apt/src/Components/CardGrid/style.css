@@ -1,0 +1,52 @@
+.grid-container {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.grid-container .ant-card-body {
+    padding: 0px !important;
+}
+
+.grid-header {
+    display: flex;
+    padding: 17px 15px 0px 15px;
+}
+
+.grid-header h5 {
+    display: block;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.grid-header .icon-header {
+    margin-right: 16px;
+}
+
+.grid-header p {
+    width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.icon-option {
+    cursor: pointer;
+}
+
+.icon-option svg {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.grid-body {
+    margin-top: 10px;
+}
+
+.grid-body .ant-row {
+    padding: 0px 10px 0px 10px;
+}

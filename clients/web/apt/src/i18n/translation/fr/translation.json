@@ -1,0 +1,75 @@
+{
+  "login": {
+    "title": "Connection",
+    "label": {
+      "email": "Adresse e-mail ou pseudonyme",
+      "password": "Mot de passe",
+      "forgot": "Mot de passe oublié?"
+    },
+
+    "button": {
+      "signin": "Se connecter",
+      "separator": "ou",
+      "signup": "S'inscrire"
+    }
+  },
+
+  "forgotPassword": {
+    "title": "Mot de passe oublié?",
+    "label": {
+      "email": "Veuillez entrer votre email"
+    },
+    "button": {
+      "back": "Se connecter",
+      "resendCode": "Renvoyer le code après 30 secondes",
+      "sendCode": "Envoyer le code",
+      "dorpDownCode": "Autre méthode ?"
+    },
+    "option": {
+      "dorpDownCode": ["Pseudonyme", "Date de naissance", "Email"]
+    }
+  },
+  "signUp": {
+    "title": "Inscription",
+    "label": {
+      "name": "Nom",
+      "forname": "Prénom",
+      "username": "Pseudonyme",
+      "gender": "Genre",
+      "email": "Email",
+      "password": "Mot de passe",
+      "confPassword": "Confirmez votre mot de passe"
+    },
+    "option": {
+      "gender": ["Féminin", "Masculin", "Autre"]
+    },
+    "button": {
+      "validateCheckBox": "En cliquant sur Valider, vous acceptez les politiques d'utilisation du site.",
+      "validate": "Valider",
+      "signin": "Se connecter"
+    }
+  },
+  "navigation": {
+    "searchBar": "Rechercher ...",
+    "dopDownMenu": ["Profile", "Paramètre", "Se déconnecter"],
+    "sideButton": [
+      "Top 10",
+      "ACT (challenge)",
+      "Vidéos",
+      "Evenements",
+      "Les ajouts",
+      "Ajoutés",
+      "Communauté",
+      "Marketplaces"
+    ]
+  },
+  "dashboard": {
+    "button": {
+      "changePic": "Changer la photo"
+    },
+    "label": {
+      "navigation": ["Publication", "Suivre", "Cahier de souvenir", "A propos"],
+      "stat": ["Mérites", "Publications", "Followers"]
+    }
+  }
+}

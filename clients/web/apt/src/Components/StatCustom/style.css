@@ -1,0 +1,29 @@
+.custom-content-stat {
+  display: flex;
+}
+
+.custom-content-stat .ant-divider-vertical {
+  height: 1.9em;
+  align-self: center;
+}
+
+.custom-content-stat li {
+  display: flex;
+}
+
+.custom-content-stat > li > span > b {
+  color: #000000;
+}
+
+.custom-content-stat > li > span > small {
+  font: normal normal normal 10px/12px;
+  letter-spacing: 0px;
+  color: #989595;
+}
+
+.custom-content-stat > li > span {
+  font-size: 12px;
+  display: grid;
+  line-height: 15px;
+  align-content: center;
+}

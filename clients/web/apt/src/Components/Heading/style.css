@@ -1,0 +1,21 @@
+h1 svg {
+  width: 38px;
+}
+h2 svg {
+  width: 30px;
+}
+h3 svg {
+  width: 24px;
+}
+h4 svg {
+  width: 20px;
+}
+h5 svg {
+  width: 16px;
+}
+.ant-typography {
+  display: flex;
+}
+.ant-typography svg {
+  margin-right: 10px;
+}

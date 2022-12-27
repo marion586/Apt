@@ -1,0 +1,49 @@
+.navigation-icon-custom svg {
+    /* width: 25px;
+    height: 30px; */
+    font-size: 20px;
+    margin-right: 5px;
+    transition: 0.5s;
+    opacity: 5;
+}
+
+.navigation-icon-custom-dark svg {
+    opacity: 10;
+    color: #0a0a0a !important;
+}
+
+.navigation-icon-custom-white svg {
+    opacity: 10;
+    color: #d7daf7 !important;
+}
+
+.navigation-icon-custom svg:hover {
+    opacity: 10;
+    /* color: #d7daf7 !important; */
+}
+
+.navigation-icon-custom sup {
+    box-shadow: none !important;
+    font-size: 10px !important;
+    right: 6px !important;
+    top: 2px !important;
+    font-weight: 300 !important;
+}
+
+
+/* ---------------- */
+
+.badgeNotif {
+    position: absolute;
+    top: -4px;
+    right: -9px;
+}
+
+.ant-scroll-number.ant-badge-count {
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 18px;
+    padding: 0;
+}

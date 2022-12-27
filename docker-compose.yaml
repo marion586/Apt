@@ -1,0 +1,45 @@
+version: "3.9"
+services:
+  graphql:
+    build:
+      context: server/graphql
+      dockerfile: Dockerfile
+    env_file:
+      - server/graphql/.env
+    volumes:
+      - ./server/graphql/src:/graphql/src
+    expose:
+      - "4000"
+    ports:
+      - "4000:4000"
+    depends_on:
+      - redis
+      - db
+      - pgadmin
+    restart: always
+
+  redis:
+    image: redis:5.0
+    volumes:
+      - ./VOLUMES/redis/data:/data
+    ports:
+      - 6379:6379
+
+  pgadmin:
+    image: dpage/pgadmin4:4
+    ports:
+      - "88:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: keketantely@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: w2f04naR2SUD17WGfo12cg==
+
+  db:
+    image: postgis/postgis:11-2.5
+    environment:
+      POSTGRES_PASSWORD: w2f04naR2SUD17WGfo12cg==
+      POSTGRES_DB: apt
+      POSTGRES_USER: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./VOLUMES/postgres/data:/data/db

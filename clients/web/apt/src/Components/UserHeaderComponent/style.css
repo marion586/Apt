@@ -1,0 +1,14 @@
+.com-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.com-container:hover {
+    background: whitesmoke;
+}

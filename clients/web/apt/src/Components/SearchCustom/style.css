@@ -1,0 +1,16 @@
+.navigation-container-center-search-custom {
+    border: 0px;
+    background: #2D2D2D45;
+    width: 100%;
+    color: #FFFFFF !important;
+}
+
+.navigation-container-center-search-custom input {
+    background: none !important;
+    color: #FFFFFF !important;
+}
+
+.navigation-container-center-search-custom svg {
+    width: 15px;
+    height: 15px
+}

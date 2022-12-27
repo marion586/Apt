@@ -1,0 +1,8 @@
+.bg {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.ant-row .ant-form-item {
+  margin-bottom: 12px;
+}

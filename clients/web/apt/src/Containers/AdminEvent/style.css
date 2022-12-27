@@ -1,0 +1,21 @@
+.admin-event-wrapper {
+  border-left: 0 !important;
+}
+.admin-event-header {
+  padding: 20px;
+}
+.left-side-title {
+  display: flex;
+  gap: 49px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.left-side-toggle-group {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.sidebar-content {
+  padding: 0;
+}

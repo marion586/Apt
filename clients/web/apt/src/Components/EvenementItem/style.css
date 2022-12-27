@@ -1,0 +1,45 @@
+.evenement-item-image-container {
+    margin-bottom: -10px;
+}
+
+.evenement-item-image-container-content {
+    display: grid;
+    text-align: left;
+    position: relative;
+    bottom: 35px;
+    left: 17px;
+}
+
+.evenement-item-image-container div:nth-child(1) {
+    border-radius: 8px !important;
+}
+
+.evenement-item-image-container-content h5 {
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #fff;
+    margin-bottom: -2px !important;
+}
+
+.evenement-item-image-container-content small {
+    font-size: 8px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.evenement-item-image-container-right {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.evenement-item-image-container-right>svg {
+    color: #C3A9BB;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.evenement-item-image-container-right>svg:hover {
+    opacity: 1;
+    color: #fff;
+}

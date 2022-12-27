@@ -1,0 +1,40 @@
+.com-container {
+    margin-top: 0px;
+    display: flex;
+    background: none;
+    padding: 10px !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.com-container-hover {
+    transition: 0.5s;
+}
+
+.com-container-hover:hover {
+    background: #F9F9F9;
+}
+
+.com-container>div:nth-child(1) {
+    margin-left: 0px;
+}
+
+.com-container>div.com-container-header {
+    margin-left: 12.5px;
+    margin-top: 2px;
+    line-height: 3px;
+    display: block;
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.com-container>div.com-container-header h5 {
+    margin-bottom: 0px !important;
+}
+
+.com-container>div>small {
+    font-size: 9px;
+    color: #BEBCBC;
+}

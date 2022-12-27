@@ -1,0 +1,39 @@
+.bg {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg .content {
+  background-color: #ffffff;
+  width: 100%;
+  height: 681px;
+    max-width: 891px;
+    max-height: 681px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-globe {
+  background-color: #eef5fc;
+  border-radius: 50px;
+  padding: 50px 30px;
+  height: 298px;
+}
+
+.ant-col-11 .ant-form .ant-form-item {
+  display: block;
+}
+
+.ant-form-item-label {
+  text-align: left;
+}
+
+.ant-form-item-control {
+  margin-left: 0;
+}

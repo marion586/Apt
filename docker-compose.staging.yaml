@@ -1,0 +1,89 @@
+version: "3.9"
+services:
+  graphql:
+    build:
+      context: server/graphql
+      dockerfile: Dockerfile
+    env_file:
+      - server/graphql/.env
+    labels:
+      traefik.frontend.rule: Host:api.graphql.apt.mg
+      traefik.enable: true
+      traefik.port: 4000
+      traefik.docker.network: traefik_apt-stage
+      traefik.frontend.entryPoints: https,http
+      traefik.frontend.redirect.entryPoint: https
+    volumes:
+      - ./server/graphql/src:/graphql/src
+    depends_on:
+      - redis
+      - db
+      - pgadmin
+    restart: always
+    networks:
+      - apt-stage
+
+  reverse-proxy:
+    image: traefik:v2.4
+    container_name: "traefik"
+    command:
+      - "--api.insecure=true"
+      - "--api.dashboard=true"
+      - "--api.debug=true"
+      - "--providers.docker=true"
+      - "--log.LEVEL=DEBUG"
+      - "--entryPoints.web.address=:80"
+      - "--entryPoints.websecure.address=:443"
+      - "--providers.docker.exposedbydefault=false"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
+      - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.myresolver.acme.email=hello@paularah.com"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "443:443"
+      - "80:80"
+      - "4000:4000"
+    volumes:
+      - "./letsencrypt:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  pgadmin:
+    image: dpage/pgadmin4:4
+    labels:
+      traefik.frontend.rule: Host:pgadmin.graphql.mg
+      traefik.enable: true
+      traefik.port: 80
+      traefik.frontend.entryPoints: https,http
+      traefik.frontend.redirect.entryPoint: https
+    env_file:
+      - server/graphql/.env
+    depends_on:
+      - db
+    networks:
+      - apt-stage
+
+  redis:
+    image: redis:5.0
+    restart: always
+    labels:
+      traefik.enable: false
+    volumes:
+      - ./data/redis:/data
+    networks:
+      - apt-stage
+
+  db:
+    image: postgis/postgis:11-2.5
+    env_file:
+      - server/graphql/.env
+    labels:
+      traefik.enable: false
+    volumes:
+      - ./data/postgres:/var/lib/postgresql
+    networks:
+      - apt-stage
+
+networks:
+  apt-stage:
+    external:
+      name: traefik_apt-stage
